@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.stackroute.test.controller.BlogControllerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.599 s <<< FAILURE! - in com.stackroute.test.controller.BlogControllerTest
+givenBlogToUpdateThenShouldNotReturnUpdatedBlog  Time elapsed: 0.405 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at com.stackroute.test.controller.BlogControllerTest.givenBlogToUpdateThenShouldNotReturnUpdatedBlog(BlogControllerTest.java:133)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+givenBlogIdToDeleteThenShouldNotReturnDeletedBlog  Time elapsed: 0.032 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.stackroute.exception.BlogNotFoundException
+	at com.stackroute.test.controller.BlogControllerTest.givenBlogIdToDeleteThenShouldNotReturnDeletedBlog(BlogControllerTest.java:118)
+Caused by: com.stackroute.exception.BlogNotFoundException
+
+givenBlogToSaveThenShouldNotReturnSavedBlog  Time elapsed: 0.026 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is com.stackroute.exception.BlogAlreadyExistsException
+	at com.stackroute.test.controller.BlogControllerTest.givenBlogToSaveThenShouldNotReturnSavedBlog(BlogControllerTest.java:78)
+Caused by: com.stackroute.exception.BlogAlreadyExistsException
+
