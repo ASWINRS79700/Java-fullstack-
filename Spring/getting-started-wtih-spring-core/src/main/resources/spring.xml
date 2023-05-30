@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+      <!--    step 2 create the configuration file-->
+
+      <!--   step 3 define the beans  -->
+      <bean id="color" class="in.stackroute.ust.shapes.Color" />
+      <bean id="yellowColor" class="in.stackroute.ust.shapes.Color" >
+            <property name="color" value="YELLOW" />
+      </bean>
+      <bean id="whiteColor" class="in.stackroute.ust.shapes.Color" >
+            <constructor-arg name="color" value="WHITE" />
+      </bean>
+
+      <bean id="circle" class="in.stackroute.ust.shapes.Circle" />
+      <bean id="square" class="in.stackroute.ust.shapes.Square" />
+      <bean id="sm" class="in.stackroute.ust.shapes.ShapeManager" >
+            <property name="shape" ref="circle" />
+            <property name="color" ref="color" />
+      </bean>
+</beans>
