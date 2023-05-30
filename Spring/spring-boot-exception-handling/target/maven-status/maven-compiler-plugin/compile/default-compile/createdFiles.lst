@@ -1,0 +1,10 @@
+in\stackroute\ust\controller\UserController.class
+in\stackroute\ust\service\GenericPersistenceService.class
+in\stackroute\ust\domain\Course.class
+in\stackroute\ust\service\UserPersistenceService.class
+in\stackroute\ust\service\CoursePersistenceService.class
+in\stackroute\ust\controller\IndexController.class
+in\stackroute\ust\repository\UserRepository.class
+in\stackroute\ust\Main.class
+in\stackroute\ust\domain\User.class
+in\stackroute\ust\service\UserPersistenceServiceImpl.class
