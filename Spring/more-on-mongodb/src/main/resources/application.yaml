@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-boot-mongodb
+  data:
+    mongodb:
+       #database: lms
+#      host: cluster0.bexczee.mongodb.net
+#      port: 27017
+#      username: root
+#      password: root
+       uri: mongodb+srv://aswinrs797:MDnx8JJtVjCQyB8c@cluster0.yyiknxu.mongodb.net/lms?retryWrites=true&w=majority
+  level:
+    root: WARN
+    org.springframework.web: WARN
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG # to see the mongodb queries
+    in.stackroute.ust: DEBUG
