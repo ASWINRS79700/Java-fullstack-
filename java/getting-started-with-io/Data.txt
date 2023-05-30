@@ -1,0 +1,16 @@
+Hello
+Welcome to Java IO
+This is written using a Charecter stream.
+Campus Training Guildelines.
+1.Be punctual nad prepared for class everyday
+2.Adhere to training session and braek timings
+3.Dress appropriately and adhere to UST dress code policy
+4.Ask questions and seek clarifications
+5.Show courtesy to the speaker and wait your turn
+6.Training premises should be maintained neat and tidy
+7.Be mindful of UST property. Vandalism will lead to disciplinary action
+8.No food or beverages allowed outside of the designated areas
+9.Strictly no casual leaves allowed while training
+10.Access to mobile phones are strictly prohibited in the training room
+11.be respectful of your own personal space and of those around you
+12.Uphold ust values
