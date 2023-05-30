@@ -1,0 +1,5 @@
+com\stackroute\smartparkingapp\controller\ParkingController.class
+com\stackroute\smartparkingapp\dto\ParkingDto.class
+com\stackroute\smartparkingapp\repo\ParkingRepo.class
+com\stackroute\smartparkingapp\model\Parking.class
+com\stackroute\smartparkingapp\SmartParkingApplication.class
