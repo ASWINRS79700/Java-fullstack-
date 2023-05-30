@@ -1,0 +1,25 @@
+debug: false
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+  error:
+    include-exception: true         # include the exception class
+    include-message: always         # include the exception message
+    include-binding-errors: always  # include the binding errors
+    include-stacktrace: never       # include the stacktrace information
+    whitelabel:
+      enabled: false
+spring:
+  application:
+    name: rest-api-client
+logging:
+  pattern:
+    console: "%-5level %logger{36} - %msg%n"
+  level:
+    org.springframework.web: WARN
+    org.springframework.web.client.RestTemplate: DEBUG
+    in.stackroute:ust: DEBUG
+app:
+  baseUrl: http://www.omdbapi.com/
+  apiKey:
