@@ -1,0 +1,5 @@
+com\stackroute\repository\BlogRepositoryIntegrationTest.class
+com\stackroute\controller\BlogControllerIntegrationTest.class
+com\stackroute\service\BlogServiceTest.class
+com\stackroute\controller\BlogControllerTest.class
+com\stackroute\service\BlogServiceIntegrationTest.class

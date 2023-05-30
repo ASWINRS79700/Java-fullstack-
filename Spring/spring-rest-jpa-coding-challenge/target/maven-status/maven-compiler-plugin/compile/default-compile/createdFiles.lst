@@ -1,0 +1,15 @@
+in\stackroute\springrestjpacodingchallenge\SpringRestJpaCodingChallengeApplication.class
+in\stackroute\springrestjpacodingchallenge\domain\Product.class
+in\stackroute\springrestjpacodingchallenge\exceptions\MalformedRequestException.class
+in\stackroute\springrestjpacodingchallenge\controller\Controller.class
+in\stackroute\springrestjpacodingchallenge\dto\ProductDto.class
+in\stackroute\springrestjpacodingchallenge\service\ProductService.class
+in\stackroute\springrestjpacodingchallenge\domain\User.class
+in\stackroute\springrestjpacodingchallenge\service\FeedbackService.class
+in\stackroute\springrestjpacodingchallenge\service\ProductServiceImpl.class
+in\stackroute\springrestjpacodingchallenge\dto\FeedbackDto.class
+in\stackroute\springrestjpacodingchallenge\repository\ProductRepository.class
+in\stackroute\springrestjpacodingchallenge\exceptions\FeedbackAlreadyProvidedException.class
+in\stackroute\springrestjpacodingchallenge\repository\FeedbackRepository.class
+in\stackroute\springrestjpacodingchallenge\domain\Feedback.class
+in\stackroute\springrestjpacodingchallenge\service\FeedbackServiceImpl.class
